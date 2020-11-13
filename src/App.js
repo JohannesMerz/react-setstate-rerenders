@@ -30,7 +30,7 @@ export default function() {
   // // console.logs are render, set s1, set s2, render
 
   // // triggers two re render
-  // useEffect(() => setTimeout(setTwoStates), 1)
+  // useEffect(() => setTimeout(setTwoStates, 1), [])
   // // console.logs are render, set s1, render, set s2, render 
 
 
